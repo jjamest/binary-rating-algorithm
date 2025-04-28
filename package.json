@@ -1,0 +1,28 @@
+{
+  "name": "binary-rating-algorithm",
+  "version": "1.0.0",
+  "description": "Elo rating algorithm where one choice is picked between 2. Users compare two images and choose their favorite. Has functions to update ratings after rounds and retrieve top-rated objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjamest/binary-rating-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jjamest/binary-rating-algorithm/issues"
+  },
+  "homepage": "https://github.com/jjamest/binary-rating-algorithm#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
